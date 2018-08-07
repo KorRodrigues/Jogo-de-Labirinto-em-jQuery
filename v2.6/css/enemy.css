@@ -1,0 +1,55 @@
+﻿.enemy{
+	/*width:18px;
+	height:20px;
+	position: absolute;
+	display: block;
+	background-repeat: no-repeat;*/
+}
+#boss{
+	top: 459px;
+	left: 281px;
+	background-size:55px 122px;
+	background-image: url("../imagens/boss.png");
+}
+#boss2{
+	top: 441px;
+	left: 263px;
+	background-size:55px 122px;
+	background-image: url("../imagens/boss.png");
+}
+#lesma{
+	top: 333px;
+	left: 11px;
+	background-size:55px 122px;
+	background-image: url("../imagens/lesm.png");
+}
+#dog{
+	top: 9px;
+	left: 280px;
+	background-size:56px 115px;
+	background-image: url("../imagens/dog.png");
+}
+#kabuto{
+	top: 405px;
+	left: 173px;
+	background-size:56px 115px;
+	background-image: url("../imagens/kabuto.png");
+}
+#aerodact{
+	top: 189px;
+	left: 353px;
+	background-size:56px 115px;
+	background-image: url("../imagens/aerodact.png");
+}
+#snake{
+	top: 189px;
+	left: 191px;
+	background-size:56px 115px;
+	background-image: url("../imagens/snake.png");
+}
+#dusk{
+	top: 225px;
+	left: 101px;
+	background-size:56px 115px;
+	background-image: url("../imagens/dusk.png");
+}

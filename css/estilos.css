@@ -1,0 +1,11 @@
+#labirinto1 {
+    background: url("../img/labirinto1.png") no-repeat;
+    height: 504px;
+    width: 380px;
+    border-radius:10px;
+}
+#player {
+    top: 9px;
+    left: 10px;
+    background-image: url("../img/sprite.png");
+}

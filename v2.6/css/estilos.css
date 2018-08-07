@@ -1,0 +1,90 @@
+body{
+	overflow:hidden;
+	background:#0f0f0f;
+	margin: 60px 100px;
+	padding: 8px;
+	position: absolute;
+}
+#labirinto {
+	float: left;
+	background-image: url("../imagens/labirinto.png"); 
+	background-repeat: no-repeat;
+	height: 504px;
+	width: 380px;
+	box-shadow:0 0 10px #ddd;
+	border-radius:20px;
+	margin-right:100px;
+	margin-bottom:60px;
+}
+#ponteiro {
+	position: absolute;
+	top: 18px;
+	left: 20px;
+	display:block;
+	width:16px;
+	height:16px;
+	background-image: url("../imagens/sprite.png");
+	background-repeat:no-repeat;
+	background-size:64px 48px;
+	z-index:50;
+}
+#controle_remoto {
+	float: left;
+	background-color: #5DE01B;
+}
+#controle_remoto p {
+	text-align: center;
+	font-family: Verdana;
+}
+button {
+	height: 60px;
+	width: 60px;
+}
+#para_cima {
+	background-image: url("../imagens/btn_cima.png");
+}
+#para_baixo {
+	background-image: url("../imagens/btn_baixo.png");
+}
+#para_esquerda {
+	background-image: url("../imagens/btn_esquerda.png");
+}
+#para_direita {
+	background-image: url("../imagens/btn_direita.png");
+}
+#tentarNovamente{
+	background:#F00;
+	color:#f1f1f1;
+}
+#automatico{
+	background:#00f;
+	color:#f1f1f1;
+}
+#contador{
+	background:#d1d1d1;
+	color:#1d1d1d;
+}
+#tentarNovamente, #automatico, #contador{
+	line-height:30px;	
+}
+.trap{
+	position: absolute;
+	background-image: url("../imagens/trap.png");
+	background-repeat: no-repeat;
+	display: block;
+	background-position:bottom;
+	background-size:10px;
+	width:16px;
+	height:16px;
+	z-index:3;
+}
+.explode{
+	position: absolute;
+	background-size: 102px 128px;
+	background-repeat: no-repeat;
+	display: block;
+	width: 20px; 
+	height:20px;
+	background-image: url('../imagens/explode.png');
+	z-index:3;
+}
